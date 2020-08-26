@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> login</title>
+        <title>sign up</title>
         <link rel="icon" href="achy.png" type="image/png">
+        <style>
+            .nav{overflow: hidden;
+                 background-color: #333;
+                }
+            .nav a{float: left;
+                    display: block;
+                    color: white;
+                    text-align: center;
+                     padding: 14px 20px;
+                     text-decoration: none;}
+            .nav a:hover {
+                          background-color: #ddd;
+                        color: black;}
+            .color{background-color:rgb(89, 167, 143);}
+            .back{text-align:left;
+                  font-size: 20px;
+                  overflow: hidden;
+                 background-color: #333;
+                 float: left;
+                 display:block;
+                 color: white;
+                 text-align: center;
+                 padding: 10px 15px
+                  }
+        </style>
     </head>
-    <body bgcolor="skyblue">
-        <a href="index.html">back</a>
-        <h1>Registration Form</h1>
+    <body class="color">
+        <div class="nav">
+            <a  href="home.html">HOME</a>
+            <a href="signup.html">REGISTRATION</a>
+            <a href="about.html">ABOUT</a>
+           <form name="search" value="search" id="search" align="right " action="https://www.google.com/search" target="_black" method="GET" >
+           <input type="search" name="q" >
+            </form> 
+        </div>
+
+    
+    
         <form name="register" id="Registration" method="POST" action="d.txt" onsubmit="return(validate());">
-            *:is necessary to fill.
+            
             <table align="center" border="1">
                 <tr>
                     <td colspan="2">
@@ -105,5 +139,6 @@
             </table>
             
         </form>
+        <a class="back" href="index.html"> Back</a>
     </body>
 </html>
