@@ -5,35 +5,39 @@
         <link rel="icon" href="achy.png" type="image/png">
         <style>
             .nav{overflow: hidden;
-                 background-color: #333;
+                 background-color:rgb(243, 208, 112);
                 }
             .nav a{float: left;
                     display: block;
-                    color: white;
+                    color: black;
                     text-align: center;
                      padding: 14px 20px;
                      text-decoration: none;}
             .nav a:hover {
-                          background-color: #ddd;
+                          background-color:orange;
                         color: black;}
-            .color{background-color:rgb(89, 167, 143);}
+            .color{background-image: url(bg9.jpg);
+                   background-attachment: fixed;
+                   background-position: center;
+                   background-size: cover;}
             .back{text-align:left;
                   font-size: 20px;
                   overflow: hidden;
-                 background-color: #333;
+                 background-color: rgb(243, 208, 112);
                  float: left;
                  display:block;
-                 color: white;
+                 color: black;
                  text-align: center;
-                 padding: 10px 15px
+                 padding: 10px 15px;
                   }
+            .labal{color: white;}
         </style>
     </head>
     <body class="color">
         <div class="nav">
             <a  href="home.html">HOME</a>
-            <a href="signup.html">REGISTRATION</a>
             <a href="about.html">ABOUT</a>
+            <a href="login.html">LOGIN</a>
            <form name="search" value="search" id="search" align="right " action="https://www.google.com/search" target="_black" method="GET" >
            <input type="search" name="q" >
             </form> 
@@ -46,88 +50,62 @@
             <table align="center" border="1">
                 <tr>
                     <td colspan="2">
-                        <h1>Register Here</h1>
+                        <h1 style="color: white;">Register Here</h1>
                     </td>
                 </tr>
                 <tr>
-                    <td>Enter your name:*</td>
+                    <td class="labal">Enter your name:*</td>
                     <td>
                         <input type="text" placeholder="check" name="name" id="first name" value=" " size="30"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>Enter email:*</td>
+                    <td class="labal">Enter email:*</td>
                     <td>
                         <input type="email" placeholder="check" name="email" id="email" value=" "/>
                     </td>
                 </tr>
                 <tr>
-                    <td>Enter password:*</td>
+                    <td class="labal">Enter password:*</td>
                     <td>
                         <input type="password" placeholder="check" name="p1" id="Initial_password" value=" "/>
                     </td> 
                 </tr>
                 <tr>
-                    <td>Confirm password:*</td>
+                    <td class="labal">Confirm password:*</td>
                     <td>
                     <input type="password" placeholder="check" name="p2" id="Confirm_password" value=" "/>
                     </td>
                 </tr>
                 <tr>
-                    <td>Date of birth:*</td>
+                    <td class="labal">Date of birth:*</td>
                     <td>
                         <input type="date" name="date" id="date" value="mm/dd/yyyy" />
                     </td>
                 </tr>
                 <tr>
-                    <td>Address:</td>
+                    <td class="labal">Address:</td>
                     <td>
                         <textarea name="Address" id="add" cols="25" rows="5" value=" "></textarea>
                     </td>
                 </tr>
+                
+              
                 <tr>
-                    <td>City:</td>
-                    <td><select name="city" id="city">
-                        <option id="city" value="-">Select any one</option>
-                        <option id="city" value="surat">SURAT</option>
-                        <option id="city" value="ahmdabad">AHMDABAD</option>
-                        <option id="city" value="navsari">NAVSARI</option>
-                        <option id="city" value="vadodra">VADODRA</option>
-                    </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>State:</td>
-                    <td><select name="state" id="state">
-                        <option id="state" value="-">Select any one</option>
-                        <option id="state" value="gujarat">GUJARAT</option>
-                        <option id="state" value="maharastra">MAHARASTRA</option>
-                        <option id="state" value="goa">GOA</option>
-                        <option id="state" value="rajsthan">RAJSTHAN</option>
-                    </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Contact No:</td>
+                    <td class="labal">Contact No:</td>
                     <td>
                         <input type="number" name="number" id="no" value=" " />
                     </td>
                 </tr>
                 <tr>
-                    <td>Gender:</td>
-                    <td>
+                    <td class="labal">Gender:</td>
+                    <td class="labal">
                         <input type="radio" name="Gender" id="Gender" value="m"/>Male
                         <input type="radio" name="Gender" id="Gender" value="f"/>Female
                     </td>
                 </tr>
-                <tr>
-                    <td>Preferable things:</td>
-                    <td>
-                        <input type="checkbox" name="things" id="things" value="G"/>Gold
-                        <input type="checkbox" name="things" id="things" value="S"/>Silver
-                        <input type="checkbox" name="things" id="things" value="O"/>Other
-                    </td>
-                </tr>
+                
+                    
                 <tr>
                     <td colspan="2">
                         <input type="reset" name="reset" id="reset" value="Reset" />

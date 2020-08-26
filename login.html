@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> login</title>
+        <style>
+            .nav{overflow: hidden;
+                 background-color:rgb(243, 208, 112);
+                }
+            .nav a{float: left;
+                    display: block;
+                    color: black;
+                    text-align: center;
+                     padding: 14px 20px;
+                     text-decoration: none;}
+            .nav a:hover {
+                          background-color:orange;
+                        color: black;}
+            .color{background-image: url(bg9.jpg);
+                   background-attachment: fixed;
+                   background-position: center;
+                   background-size: cover;} 
+            .labal{color: white;}
+            .back{text-align:left;
+                  font-size: 20px;
+                  overflow: hidden;
+                 background-color: rgb(243, 208, 112);
+                 float: left;
+                 display:block;
+                 color: black;
+                 text-align: center;
+                 padding: 10px 15px;
+                  }           
+        </style>                
+    </head>
+<body class="color">
+    <div class="nav">
+        <a  href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="login.html">LOGIN</a>
+       <form name="search" value="search" id="search" align="right " action="https://www.google.com/search" target="_black" method="GET" >
+       <input type="search" name="q" >
+        </form> 
+    </div>
+    <center>
+    <form name="login" id="login" method="POST" action="enjoyy.txt">'
+        <table align="center" border="1">
+            <tr>
+                <td colspan="3">
+                    <center>
+                    <h1 style="color: white;">LOGIN</h1>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td class="labal">Enter email:*</td>
+                    <td>
+                        <input type="email" placeholder="abc@gmail" name="email" id="email" value=" "/>
+                    </td>
+            </tr>
+            <tr>
+                <td class="labal">Enter password:*</td>
+                    <td>
+                        <input type="password" placeholder="Enter your password!!" name="p1" id="Initial_password" value=" "/>
+                    </td> 
+            </tr>
+            <tr>
+               <td colspan="2">           
+                        <input type="submit" name="LOGIN" id="LOGIN" value="LOGIN" />
+                </td>
+            </tr>
+            </table>
+           <p class="labal">Don't you any account?  <a class="labal" href="signup.html">SIGN UP</a>  </p>  
+        </form>
+    </center> 
+    <a class="back" href="index.html"> Back</a> 
+</body>
+</html>      
