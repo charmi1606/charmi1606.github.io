@@ -5,32 +5,27 @@
         <link rel="icon" href="achy.png" type="image/png">
         <style>
             .nav{overflow: hidden;
-                 background-color:rgb(243, 208, 112);
+                 background-color:#333;
                 }
             .nav a{float: left;
                     display: block;
-                    color: black;
+                    color: white;
                     text-align: center;
                      padding: 14px 20px;
                      text-decoration: none;}
             .nav a:hover {
-                          background-color:orange;
+                          background-color:white;
                         color: black;}
-            .color{background-image: url(bg9.jpg);
+            .color{background-image: url(pic.jpg);
                    background-attachment: fixed;
                    background-position: center;
                    background-size: cover;}
-            .back{text-align:left;
-                  font-size: 20px;
-                  overflow: hidden;
-                 background-color: rgb(243, 208, 112);
-                 float: left;
-                 display:block;
-                 color: black;
-                 text-align: center;
-                 padding: 10px 15px;
+            .labal{color: black;}
+            .back {text-align:end;
+                  font-size: medium;
                   }
-            .labal{color: white;}
+            .back a{color: black;}
+            
         </style>
     </head>
     <body class="color">
@@ -47,10 +42,14 @@
     
         <form name="register" id="Registration" method="POST" action="d.txt" onsubmit="return(validate());">
             
-            <table align="center" border="1">
+            <table style="border-style: hidden;
+                          margin-left: 250px;
+                         /* background-color:cadetblue;*/
+                          backface-visibility: visible;
+                          margin-top: 25px;">
                 <tr>
                     <td colspan="2">
-                        <h1 style="color: white;">Register Here</h1>
+                        <h1 style="color: black;">Register Here</h1>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +116,8 @@
             </table>
             
         </form>
-        <a class="back" href="index.html"> Back</a>
+        <div class="back"><a href="index.html"> Back</a></div>
     </body>
 </html>
+
+

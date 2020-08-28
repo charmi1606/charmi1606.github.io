@@ -4,32 +4,41 @@
         <title> login</title>
         <style>
             .nav{overflow: hidden;
-                 background-color:rgb(243, 208, 112);
+                 background-color:#333;
                 }
             .nav a{float: left;
                     display: block;
-                    color: black;
+                    color: white;
                     text-align: center;
                      padding: 14px 20px;
                      text-decoration: none;}
             .nav a:hover {
-                          background-color:orange;
+                          background-color:white;
                         color: black;}
-            .color{background-image: url(bg9.jpg);
-                   background-attachment: fixed;
-                   background-position: center;
+            .color{background-image: url(pic.jpg);
+                   background-attachment:fixed;
                    background-size: cover;} 
-            .labal{color: white;}
-            .back{text-align:left;
-                  font-size: 20px;
-                  overflow: hidden;
-                 background-color: rgb(243, 208, 112);
-                 float: left;
-                 display:block;
-                 color: black;
-                 text-align: center;
-                 padding: 10px 15px;
-                  }           
+
+
+          /*  .merge{margin-top: 50px;
+                   border-style: solid black;
+                   background-color: cadetblue;
+                  background-position: left;
+                  width:100px; 
+                  height: 100px;
+                   padding:50px;
+            
+                  color: darkblue;
+                  text-align:left;}*/
+            
+        
+            .labal{color:black;}
+            .back{text-align:end;
+                  font-size: medium;}
+            .back a{color: black;}
+
+            
+                             
         </style>                
     </head>
 <body class="color">
@@ -42,12 +51,17 @@
         </form> 
     </div>
     <center>
-    <form name="login" id="login" method="POST" action="enjoyy.txt">'
-        <table align="center" border="1">
-            <tr>
+        
+    
+         <form name="login" id="login" method="POST" action="enjoyy.txt">
+          <table style="border-style: hidden;
+                        /*background-color:cadetblue;*/
+                        backface-visibility: visible;
+                        margin-top: 100px;">
+           <tr>
                 <td colspan="3">
                     <center>
-                    <h1 style="color: white;">LOGIN</h1>
+                    <h1 style="color:black;">LOGIN</h1>
                     </center>
                 </td>
             </tr>
@@ -69,9 +83,13 @@
                 </td>
             </tr>
             </table>
-           <p class="labal">Don't you any account?  <a class="labal" href="signup.html">SIGN UP</a>  </p>  
+           <p style="color: black;">Don't you have any account? 
+           <a style="color:black;" href="signup.html">SIGN UP</a>  </p>  
         </form>
+        
+        
+
     </center> 
-    <a class="back" href="index.html"> Back</a> 
+    <div class="back"><a href="index.html"> Back</a> </div>
 </body>
 </html>      
