@@ -3,53 +3,56 @@
     <head>
         <title> login</title>
         <style>
-            .nav{overflow: hidden;
-                 background-color:#333;
-                }
-            .nav a{float: left;
-                    display: block;
-                    color: white;
-                    text-align: center;
-                     padding: 14px 20px;
-                     text-decoration: none;}
-            .nav a:hover {
-                          background-color:white;
-                        color: black;}
+             ul {
+           position:absolute;
+           top:25px;
+           width: 100%;
+        list-style-type: none;
+        margin-left: 25px;
+        padding: 0;
+        overflow: hidden;}
+      
+      
+      li {
+        float: left;}
+      
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:underline;}
+      
+      
+      li a:hover {font-weight: bold;
+        background-color: #111;}
+      
             .color{background-image: url(pic.jpg);
                    background-attachment:fixed;
                    background-size: cover;} 
-
-
-          /*  .merge{margin-top: 50px;
-                   border-style: solid black;
-                   background-color: cadetblue;
-                  background-position: left;
-                  width:100px; 
-                  height: 100px;
-                   padding:50px;
-            
-                  color: darkblue;
-                  text-align:left;}*/
-            
-        
             .labal{color:black;}
-            .back{text-align:end;
-                  font-size: medium;}
-            .back a{color: black;}
+            .back a{text-align:end;
+                  font-size: 20px;
+                  color: black;
+                  margin-left: 900px;
+                    padding: 14px 16px;
+                    text-decoration:underline;
+                    display:block;}
+            .back a:hover{color: white;
+                          background-color: #111;
+                          font-weight: bold;}
 
             
                              
         </style>                
     </head>
 <body class="color">
-    <div class="nav">
-        <a  href="home.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="login.html">LOGIN</a>
-       <form name="search" value="search" id="search" align="right " action="https://www.google.com/search" target="_black" method="GET" >
-       <input type="search" name="q" >
-        </form> 
-    </div>
+    <ul>
+        <li><a  href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+    </ul>
     <center>
         
     
