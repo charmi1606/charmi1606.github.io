@@ -36,19 +36,23 @@
 
 .head{padding:80px;
     text-align:center;
-    background-image: url(cont.jpg);
+    background-image: url(jeb1.jpeg);
     background-attachment:scroll; 
     background-position:center;
-    background-size: cover;
+    height:600px;
+    background-size:cover;
     color:white;}
-.head h1{font-size:120px;}
+.head h3{font-size:25px;
+         margin-top: 370px;
+        color: rgb(128, 22, 22);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 .footer { padding: 15px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         text-align: left;
         background-color: black;
         color:white;}
-.middle{background-image: url(bg2.jpg);
+.middle{background-image: url(jb5.jpg);
       background-attachment: fixed;
       background-position: center;
       background-size: cover;}
