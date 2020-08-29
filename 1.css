@@ -19,7 +19,7 @@
       
       li a {
         display: block;
-        color: white;
+        color:rgb(24, 54, 92);
         text-align: center;
         padding: 14px 16px;
         text-decoration:underline;
@@ -27,6 +27,7 @@
       
       li a:hover {font-weight: bold;
         background-color: #111;
+        color: white;
       }
 
 
@@ -36,15 +37,15 @@
 
 .head{padding:80px;
     text-align:center;
-    background-image: url(jeb1.jpeg);
+    
+    background-image: url(jeb2.jpg);
     background-attachment:scroll; 
     background-position:center;
-    height:600px;
     background-size:cover;
     color:white;}
 .head h3{font-size:25px;
-         margin-top: 370px;
-        color: rgb(128, 22, 22);
+         margin-top: 450px;
+        color: rgb(165, 197, 202);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 .footer { padding: 15px;
         font-family: Arial, Helvetica, sans-serif;
