@@ -19,13 +19,17 @@
       
       li a {
         display: block;
-        color:rgb(24, 54, 92);
+        color:white;
+        font-size: 20px;
+        letter-spacing: 2px;
         text-align: center;
         padding: 14px 16px;
         text-decoration:underline;
+        text-decoration-style: double;
       }
       
       li a:hover {font-weight: bold;
+        border-radius: 10px;
         background-color: #111;
         color: white;
       }
@@ -38,14 +42,14 @@
 .head{padding:80px;
     text-align:center;
     
-    background-image: url(jeb2.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('jeb2.jpg');
     background-attachment:scroll; 
     background-position:center;
     background-size:cover;
     color:white;}
 .head h3{font-size:25px;
-         margin-top: 450px;
-        color: rgb(165, 197, 202);
+         margin-top: 470px;
+        color: rgb(233, 184, 120);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 .footer { padding: 15px;
         font-family: Arial, Helvetica, sans-serif;

@@ -21,12 +21,17 @@
       li a {
         display: block;
         color:white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
         text-align: center;
         padding: 14px 16px;
-        text-decoration:underline;}
+        text-decoration:underline;
+        text-decoration-style: double;}
       
       
       li a:hover {font-weight: bold;
+        border-radius: 10px;
         background-color: #111;
         color: white;}
       
@@ -45,6 +50,7 @@
                     display:block;
                   }
             .back a:hover{color: white;
+                          border-radius: 10px;
                           font-weight: bold;
                           background-color: #111;}
 
@@ -64,11 +70,13 @@
     
         <form name="register" id="Registration" method="POST" action="d.txt" onsubmit="return(validate());">
             
-            <table style="border-style: hidden;
-                          margin-left: 75px;
-                         /* background-color:cadetblue;*/
+            <table style="border-style:hidden;
+                          margin-left: 25px;
+                          padding: 25px;
+                          border-radius: 25px;
+                          background-color:rgb(165, 170, 170);
                           backface-visibility: visible;
-                          margin-top: 100px;">
+                          margin-top: 130px;">
                 <tr>
                     <td colspan="2">
                         <h1 style="color: black;">Register Here</h1>
@@ -77,37 +85,37 @@
                 <tr>
                     <td class="labal">Enter your name:*</td>
                     <td>
-                        <input type="text" placeholder="check" name="name" id="first name" value=" " size="30"/>
+                        <input style="border-radius: 8px;" type="text" placeholder="check" name="name" id="first name" value=" " size="30"/>
                     </td>
                 </tr>
                 <tr>
                     <td class="labal">Enter email:*</td>
                     <td>
-                        <input type="email" placeholder="check" name="email" id="email" value=" "/>
+                        <input style="border-radius: 8px;" type="email" placeholder="check" name="email" id="email" value=" "/>
                     </td>
                 </tr>
                 <tr>
                     <td class="labal">Enter password:*</td>
                     <td>
-                        <input type="password" placeholder="check" name="p1" id="Initial_password" value=" "/>
+                        <input style="border-radius: 8px;" type="password" placeholder="check" name="p1" id="Initial_password" value=" "/>
                     </td> 
                 </tr>
                 <tr>
                     <td class="labal">Confirm password:*</td>
                     <td>
-                    <input type="password" placeholder="check" name="p2" id="Confirm_password" value=" "/>
+                    <input style="border-radius: 8px;" type="password" placeholder="check" name="p2" id="Confirm_password" value=" "/>
                     </td>
                 </tr>
                 <tr>
                     <td class="labal">Date of birth:*</td>
                     <td>
-                        <input type="date" name="date" id="date" value="mm/dd/yyyy" />
+                        <input style="border-radius: 8px;" type="date" name="date" id="date" value="mm/dd/yyyy" />
                     </td>
                 </tr>
                 <tr>
                     <td class="labal">Address:</td>
                     <td>
-                        <textarea name="Address" id="add" cols="25" rows="5" value=" "></textarea>
+                        <textarea style="border-radius: 8px;" name="Address" id="add" cols="25" rows="5" value=" "></textarea>
                     </td>
                 </tr>
                 
@@ -115,7 +123,7 @@
                 <tr>
                     <td class="labal">Contact No:</td>
                     <td>
-                        <input type="number" name="number" id="no" value=" " />
+                        <input style="border-radius: 8px;" type="number" name="number" id="no" value=" " />
                     </td>
                 </tr>
                 <tr>
@@ -129,10 +137,10 @@
                     
                 <tr>
                     <td colspan="2">
-                        <input type="reset" name="reset" id="reset" value="Reset" />
+                        <input style="border-radius: 8px;" type="reset" name="reset" id="reset" value="Reset" />
                     
             
-                        <input type="submit" name="submit" id="submit" value="SUBMIT" />
+                        <input style="border-radius: 8px;" type="submit" name="submit" id="submit" value="SUBMIT" />
                     </td>
                 </tr>
             </table>
