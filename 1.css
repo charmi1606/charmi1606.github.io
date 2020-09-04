@@ -17,7 +17,7 @@
         float: left;
       }
       
-      li a {
+      li a, .drpbtn {
         display: block;
         color:white;
         font-size: 20px;
@@ -28,11 +28,43 @@
         text-decoration-style: double;
       }
       
-      li a:hover {font-weight: bold;
+      li a:hover , .drpdown:hover .drpbtn {font-weight: bold;
         border-radius: 10px;
         background-color: #111;
         color: white;
       }
+
+      li .drpdown{ position: relative;
+                   display: inline-block;}
+      
+      
+       li .drpdwn-content{display:none;
+                      position: absolute;
+                      background-color: #ccc;
+                      min-width: 160px;}
+      
+       li .drpdwn-content a{color: white;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                        text-align: left;}
+      li  .drpdown:hover  .drpdwn-content{display: block;}
+
+      input[type=search]{ margin-left: 25px;
+                          margin-top: 25px;
+                              width: 130px;
+                              padding-left: 25px;
+                              box-sizing: border-box;
+                              border: 2px solid #ccc;
+                              border-radius: 4px;
+                              font-size: 16px;
+                              background-color: white;
+                             background-image: url(search.png);
+                             background-size: contain;
+                             background-repeat: no-repeat;
+                             -webkit-transition: 130px 0.4s ease-in-out;
+                             transition: 130px 0.4s ease-in-out;}
+     input[type=search]:focus{width: 95%;} 
       
 
 
@@ -63,6 +95,7 @@
   width: 600px;
   height:200px;
   border-radius: 25px;
+  box-shadow: 5px 5px 5px #000;
   padding: 30px;
   margin-top: 50px;
   margin-left: 100px;}
@@ -71,6 +104,7 @@
     width: 600px;
     height:200px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #000;
     padding: 30px;
     margin-top: 50px;
     margin-left: 300px;}
