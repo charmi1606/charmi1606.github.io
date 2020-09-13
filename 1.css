@@ -23,7 +23,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: underline;
-        text-decoration-style:double;
+    
 
         
       }
@@ -61,6 +61,7 @@
 
 .head{padding:80px;
     text-align:center;
+    margin-top: 10px;
     
     background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('jeb2.jpg');
     background-attachment:scroll; 
