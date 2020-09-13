@@ -9,50 +9,36 @@
            width: 100%;
         list-style-type: none;
         margin-left: 25px;
-        padding: 0;
-    
-      }
+        padding: 0;}
       
       li {
         float: left;
       }
       
-      li a, .drpbtn {
+      li a {
         display: block;
         color:white;
         font-size: 20px;
         letter-spacing: 2px;
         text-align: center;
         padding: 14px 16px;
-        text-decoration:underline;
-        text-decoration-style: double;
+        text-decoration: underline;
+        text-decoration-style:double;
+
+        
       }
       
-      li a:hover , .drpdown:hover .drpbtn {font-weight: bold;
+      li a:hover {font-weight: bold;
         border-radius: 10px;
         background-color: #111;
         color: white;
       }
+      
 
-      li .drpdown{ position: relative;
-                   display: inline-block;}
-      
-      
-       li .drpdwn-content{display:none;
-                      position: absolute;
-                      background-color: #ccc;
-                      min-width: 160px;}
-      
-       li .drpdwn-content a{color: white;
-                        padding: 12px 16px;
-                        text-decoration: none;
-                        display: block;
-                        text-align: left;}
-      li  .drpdown:hover  .drpdwn-content{display: block;}
 
       input[type=search]{ margin-left: 25px;
                           margin-top: 25px;
-                              width: 130px;
+                              width: 100px;
                               padding-left: 25px;
                               box-sizing: border-box;
                               border: 2px solid #ccc;
@@ -62,9 +48,9 @@
                              background-image: url(search.png);
                              background-size: contain;
                              background-repeat: no-repeat;
-                             -webkit-transition: 130px 0.4s ease-in-out;
+                            
                              transition: 130px 0.4s ease-in-out;}
-     input[type=search]:focus{width: 95%;} 
+     input[type=search]:hover{width: 95%;} 
       
 
 
