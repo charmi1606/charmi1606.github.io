@@ -5,7 +5,8 @@
 
 * {box-sizing: border-box;}
 
-
+ .card-group{border-style: hidden;}
+ .card-title{text-align: center;}
 
     
 .footer { padding: 15px;
