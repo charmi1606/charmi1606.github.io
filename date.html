@@ -1,0 +1,23 @@
+<html>
+    <script>
+        function compare()
+        {
+            var a=document.getElementById('d').value;
+            // alert(a);
+            var b=new Date();
+            alert(b.getMonth()+1);
+            alert(b.getDate());
+            alert(b.getFullYear());
+            // alert(b);
+            // alert(b.getTime());
+            alert(a.getTime());
+
+        }
+    </script>
+    <body>
+        <form name="check" onsubmit="compare()">
+            <input type="date" name="d" id="d">
+            <input type="submit">
+        </form>
+    </body>
+</html>
